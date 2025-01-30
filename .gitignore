@@ -1,0 +1,50 @@
+# Python-related ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Virtual environment
+myenv/
+.env
+.envrc
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Logs
+logs/
+*.log
+
+# Database and migrations (if using SQLite)
+*.sqlite3
+*.db
+alembic/versions/
+
+# Dependency files
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# Docker-related ignores
+*.dockerignore
+docker-compose.override.yml
+
+# VS Code & JetBrains IDE
+.vscode/
+.idea/
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+
+# Deployment
+*.pem
+*.key
+secrets.json
+
+# Cache & compiled files
+.cache/
+.mypy_cache/
+pytest_cache/
